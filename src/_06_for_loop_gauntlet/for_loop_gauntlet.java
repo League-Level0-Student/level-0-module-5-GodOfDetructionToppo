@@ -5,9 +5,9 @@ import javax.swing.JOptionPane;
 public class for_loop_gauntlet {
 	public static void main(String[] args) {
 	//int age;
-	for (int i =0 ; i <7; i+=3) {
-		for(int j=1;j<4;j++) {
-		System.out.print(j+i);
+	for (int i =0 ; i <101; ++i ) {
+		
+		System.out.print(+i+" ");
 		
 	
 			}
@@ -20,4 +20,4 @@ public class for_loop_gauntlet {
 
 	}
 
-}
+
